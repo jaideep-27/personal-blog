@@ -1,17 +1,12 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
+import "../styles/Navbar.css";  // Make sure the path to your CSS file is correct
 
 function Navbar() {
   return (
-    <nav>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/create">Create New Post</Link>
-        </li>
-      </ul>
+    <nav className="navbar">
+      <Link to="/" className="navbar-link">Home</Link>
+      <Link to="/create" className="navbar-link">Create New Post</Link>
     </nav>
   );
 }

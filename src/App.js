@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import './App.css';
 import Navbar from "./components/Navbar"; // Make sure you create a Navbar component
 import BlogPostList from "./components/BlogPostList"; // Component to display the list of blog posts
 import BlogPostForm from "./components/BlogPostForm"; // Component for creating new posts
